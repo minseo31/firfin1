@@ -1,0 +1,83 @@
+main{
+    width: 100vw;
+    height: auto;
+}
+
+.f-section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-purple-200);
+}
+
+/* 컨텐츠 박스 */
+.f-section > .contents{
+    max-width: var(--max-width-1300px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 100px;
+    margin: var(--m-center);
+    padding-left: 150px;
+}
+
+/* 타이틀 박스 */
+.titles{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    font-weight: bold;
+}
+
+/* 타이틀 */
+.title{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.titles > p {
+    font-size: 25px;
+}
+
+/* 버튼 박스 */
+.titles > .btns{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.btns > button{
+    font-size: large;
+    font-weight: 600;
+    border: var(--border-normal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    padding-inline: 15px;
+    background: #fff;
+}
+
+
+/* 이미지 박스 */
+.imgBox{
+    width: 45%;
+    height: 80%;
+    background-image: url('https://www.firfin.family/assets/images/main/img_top.png');
+    background-size: cover;
+}
+
+/* gif */
+.card{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    margin-top: 30%;
+}
